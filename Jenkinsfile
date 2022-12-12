@@ -26,14 +26,7 @@ pipeline {
 		      sh "node --version"
 		      sh "npm i"
 		      sh "npm install jest --global"
-		      
-		      
-       
-            sh "npm run test & sleep 3"
-       
-    
-                  
-		 
+		      sh "npm run test & sleep 3" 
               }
       }
       
